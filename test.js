@@ -5,7 +5,7 @@ app.set('port', (process.env.PORT || 5000));
 
 app.get('/',function(req, res){
 	console.log('Recebida a requisicao de teste');
-	res.send('<html><body>Página principal =)</body></html>');
+	res.send('<html><body>Página principal</body></html>');
 });
 
 app.listen(app.get('port'), function() {
